@@ -10,6 +10,6 @@ ip link add name bridge03 type bridge
 ip link set dev bridge03 up
 printf " done!\n"
 
-clab deploy --topo pac1-2025-1.yml
+clab deploy --topo pac1-2025-2.yml
 
 ./configure-hosts.sh
