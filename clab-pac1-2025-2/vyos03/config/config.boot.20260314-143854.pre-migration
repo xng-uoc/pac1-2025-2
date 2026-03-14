@@ -1,0 +1,88 @@
+interfaces {
+    ethernet eth0 {
+        description "Management Interface"
+    }
+    loopback lo {
+    }
+}
+pki {
+    certificate self {
+    certificate "MIID2jCCAsKgAwIBAgICBnowDQYJKoZIhvcNAQELBQAwVzELMAkGA1UEBhMCVVMxCTAHBgNVBAcTADEVMBMGA1UEChMMY29udGFpbmVybGFiMQkwBwYDVQQLEwAxGzAZBgNVBAMTEnBhYzEtMjAyNS0yIGxhYiBDQTAeFw0yNjAzMTQxNDM4NDhaFw0yNzAzMTQxNDM4NDhaMFoxCzAJBgNVBAYTAlVTMQkwBwYDVQQHEwAxFTATBgNVBAoTDGNvbnRhaW5lcmxhYjEJMAcGA1UECxMAMR4wHAYDVQQDExV2eW9zMDMucGFjMS0yMDI1LTIuaW8wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCyAt2WgGov8DPTmK6px8vvvGtnD2D7SUFcnkGdPULc2qIgRIgt2DpHhcQrgsLUDrZc5zacnwz6CcvcJIpOkAtZckQBUpIVfY2aUYVeumLt+XQ/AxthvWgQ2izGDDxMaL/gz3I1QC4oxxeV27I06UweKaNCmfL7jKjX5QJ1jFinmLVMMcY+BnvmY3IAU61IKPPYiKWHgna38jtVVLApK1xqtO3LRYN568tBkYQWQ2CE/RtKs8jAVTnxA39wpm1deEzEbuZaqaZilhvZ9d+l66kUbg8wTB336RFFg/sfmfwC4EWzCtIatNSyTbf3WtB7Wwe4+4abhiNtAb+PJPddfoYLAgMBAAGjgawwgakwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDATAOBgNVHQ4EBwQFAQIDBAYwHwYDVR0jBBgwFoAUh/abuDGDWf7JS1YxGa253EiZgQowRwYDVR0RBEAwPoIGdnlvczAzghdjbGFiLXBhYzEtMjAyNS0yLXZ5b3MwM4IVdnlvczAzLnBhYzEtMjAyNS0yLmlvhwSsFBQrMA0GCSqGSIb3DQEBCwUAA4IBAQApM9X1jeXdOTi5cGUbXfkdBdPQ3EMjqWiYyZaO1T3y6JGzXirAt5Ry+rLZWUGnMm3SUctsvcl9aTutTXCIOfPnMF9MPP1tK59cKxJjS0kOmxnxG3784AhsG+bv7gpt3YHjJvFiAvZbwZ32VgEWoh4B/hLsrZG+i/IZI/r+3f3BsThVGccmv71aIk8yjJj/zPeIEPgRaFQ5VAmZP6fqdxj0Qd8ZMxKC9uriMNuZbYsr6QM+7oE564jA9aGJBOaNjdrUjS9Odd7oKxry7IBTlGMT6NiV9t+jQcMdwKLbb6veR92KOwUZL1EEXLIR/4Almn52EwF/tLHjpR18JMnzR/va"
+        private {
+        key "MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCyAt2WgGov8DPTmK6px8vvvGtnD2D7SUFcnkGdPULc2qIgRIgt2DpHhcQrgsLUDrZc5zacnwz6CcvcJIpOkAtZckQBUpIVfY2aUYVeumLt+XQ/AxthvWgQ2izGDDxMaL/gz3I1QC4oxxeV27I06UweKaNCmfL7jKjX5QJ1jFinmLVMMcY+BnvmY3IAU61IKPPYiKWHgna38jtVVLApK1xqtO3LRYN568tBkYQWQ2CE/RtKs8jAVTnxA39wpm1deEzEbuZaqaZilhvZ9d+l66kUbg8wTB336RFFg/sfmfwC4EWzCtIatNSyTbf3WtB7Wwe4+4abhiNtAb+PJPddfoYLAgMBAAECggEAVe7/NLfiSykcg9Hpw6lhgGaHvLVWXoiTJph5WWRpAkADUytySBthqwRe2phh4EgH7hpqKTq4433WLXxwThPIftIkFTVcs0YslSo0hbHZr0MkxISF8+2hLr18LtFaTJKmymqqmh1VCzdtYdkwks1rAwabuzuhaqERI0P5J3DsnV7TFuo/ue1o0Cp1iZSdjzQTHSaCJ4H0R9O/+hgKoBd46lSQU5lN0PVj6+Uh3WlnDZevV4iA9RBS3vFamTXTehyPzHqOLLKA0MFUJxrc5kkmBv0g3xXmzMfyUzL9GREOQlYoTb2ZT1c5dFc53grM9lgT6gTi4jcZA6BLG0nMFZGCjQKBgQDfiQlJhcAWZs7/Walt53O2BFpcov3lYMAfn+Sshf750PaXUZlyIu83eivFrsZrG1OcjpcfXjO1R39CbL7DU7d3ptX+rphFhf3tGbmfTnwMcd316E+rDZ2JWjOpruyhJs4gxEY5cGlFux2ljDdm7byqEJwx6vKv+6m12Zq6o0fl7QKBgQDL3UJVuYQV2wWE5LPb/US4Z1CHvY9FSvohtsnpKyH8wJyqx/AM75C+o1xcAE0SjQVOwfBvznndD7qHbgHqhWTABTO82mIUmYeTQgy+waOATAFOadLA45jh4Ih51VHtum870h7GAuouVZuh+5CoZ23/+L2K98IspaAtYW2MnACc1wKBgAizddgVy7dTgyUvYUf05W0lWDsY4Rcnn/LbL3SDtrwUpTSYqYdm0rbvG3sTZYfPxX5nknxXF14sDUkRoI9L1+1hYh0KwMScBZlQEgigbnWxjPlAdLFs00AAcdheBbn0H7vox+7+cCqVsP67qYBpKpnYEaxjv9SX0DBS6xHuvyK1AoGARFQ+vZjWirTEXsyA9EUpWV1Xgoeok6MTv2USu9I3LA4q9Jra/Jr3Os5qUHPRYVxe4Qzj17Wu5sc0z9uxTLe1Ex8rPis8IIdtB5Bl0TH56TCQZ4XUm84tGdg2Jg+3zCRmz/gXVGr5rtoGtf4peChimB74+LEeJfTFgTBclXpcQjUCgYEA2lZle0b3eUzFNlq1WMvOTJBl99XDvg86E3Spvuuc/sIfn6NOz2tXkpStHeh+EpsKRyBK1rQvU2sDcrpFXC2O7gK0gmrrSzEg3mBccNPkYCaTViTajrOYYk/q8/AND1uYWRURkhxSrajNMYj0tbfdZzIWiA7VN/0I46/6ibLs8fo="
+        }
+    }
+    ca clab {
+    certificate "MIIDizCCAnOgAwIBAgICB+MwDQYJKoZIhvcNAQELBQAwVzELMAkGA1UEBhMCVVMxCTAHBgNVBAcTADEVMBMGA1UEChMMY29udGFpbmVybGFiMQkwBwYDVQQLEwAxGzAZBgNVBAMTEnBhYzEtMjAyNS0yIGxhYiBDQTAeFw0yNjAzMTQxNDM4NDdaFw0yNzAzMTQxNDM4NDdaMFcxCzAJBgNVBAYTAlVTMQkwBwYDVQQHEwAxFTATBgNVBAoTDGNvbnRhaW5lcmxhYjEJMAcGA1UECxMAMRswGQYDVQQDExJwYWMxLTIwMjUtMiBsYWIgQ0EwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCmKHN6gZaYS1fq5ATwTUCAKFD2G7kWTv6jeojbIwcIsc9kXpsZfbELB31CNVM82Ts/oa+5xfX+nnLSP34mBE43aEzHpXDq5THgwwyo4thRpQlJOc03TyyByBMKiYnTPXoVotV8Gcg8hTseQuwlzycBPGlGVZhCYdQUJ92JslG+KOh/ew8ie9OKsfqZxVE6FgTWHve67uRuKHL46tG5HsXM9lVyHylxuQePnZDp4H+qNWBY0MARj+U9s7vsdKcNFPHb85ln6/9BCgN3xy99gs8t6Qy2J3jDn82BMZevRtE1mgUurfSFYyHN+EOVHE5bO6tI8qqFqLJCGIowREuUKR6bAgMBAAGjYTBfMA4GA1UdDwEB/wQEAwIChDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUh/abuDGDWf7JS1YxGa253EiZgQowDQYJKoZIhvcNAQELBQADggEBAH6WIZYhTpz+oSk4XfZ24wrNhHlr8z4tlt1QfGfOcFI1MJ4mI+68YYJoh3SH7xD+iomLyh1tLYpB7h9FRiUMnKjZVzn9XlRx7PtlIEzA+kczUZruMv3JOn1+XYXS6iEFkuc8l1KgWPGer9ee4CR0Dr1nih+Yh8N0Wy5IdNuJlss4egbuQsFkGKqHw/JdIZWg5W27/U3wF6Y5mtmuSE/xzT5XYjqTubwnAzVEnnSf0QBC0owSOelEFjAhpQzi5055aTdqOsVJ82aNL+9Y7+qZn0kJDHh1i1ApbV54mmhwFBamFpapUVqPufc9X9EJt6/w2uo1hYxH9l2jHRwSULMzO+M="
+    }
+}
+service {
+    https {
+        api {
+            keys {
+                id admin {
+                    key "admin"
+                }
+            }
+        }
+        certificates {
+            ca-certificate "clab"
+            certificate "self"
+        }
+        listen-address "0.0.0.0"
+    }
+    ntp {
+        allow-client {
+            address "127.0.0.0/8"
+            address "169.254.0.0/16"
+            address "10.0.0.0/8"
+            address "172.16.0.0/12"
+            address "192.168.0.0/16"
+            address "::1/128"
+            address "fe80::/10"
+            address "fc00::/7"
+        }
+        server time1.vyos.net {
+        }
+        server time2.vyos.net {
+        }
+        server time3.vyos.net {
+        }
+        
+    }
+    ssh {
+        listen-address "0.0.0.0"
+    }
+}
+system {
+    config-management {
+        commit-revisions "100"
+    }
+    console {
+        device ttyS0 {
+            speed "115200"
+        }
+    }
+host-name vyos03
+    login {
+        user admin {
+            authentication {
+                plaintext-password "admin"
+            }
+        }
+    }
+    syslog {
+        global {
+            facility all {
+                level "info"
+            }
+            facility local7 {
+                level "debug"
+            }
+        }
+    }
+}
+
+// Warning: Do not remove the following line.
+// vyos-config-version: "bgp@5:broadcast-relay@1:cluster@2:config-management@1:conntrack@5:conntrack-sync@2:container@2:dhcp-relay@2:dhcp-server@11:dhcpv6-server@5:dns-dynamic@4:dns-forwarding@4:firewall@16:flow-accounting@1:https@6:ids@1:interfaces@33:ipoe-server@4:ipsec@13:isis@3:l2tp@9:lldp@2:mdns@1:monitoring@1:nat@8:nat66@3:ntp@3:openconnect@3:openvpn@4:ospf@2:pim@1:policy@8:pppoe-server@11:pptp@5:qos@2:quagga@11:reverse-proxy@1:rip@1:rpki@2:salt@1:snmp@3:ssh@2:sstp@6:system@27:vrf@3:vrrp@4:vyos-accel-ppp@2:wanloadbalance@3:webproxy@2"
+// Release version: 1.5-stream-2025-Q1

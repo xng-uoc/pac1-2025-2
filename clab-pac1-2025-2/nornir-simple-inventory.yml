@@ -1,0 +1,66 @@
+---
+bridge01:
+    username: 
+    password: 
+    platform: bridge
+    hostname: 
+bridge02:
+    username: 
+    password: 
+    platform: bridge
+    hostname: 
+bridge03:
+    username: 
+    password: 
+    platform: bridge
+    hostname: 
+host11:
+    username: 
+    password: 
+    platform: linux
+    hostname: 172.20.20.11
+host12:
+    username: 
+    password: 
+    platform: linux
+    hostname: 172.20.20.12
+host21:
+    username: 
+    password: 
+    platform: linux
+    hostname: 172.20.20.21
+host22:
+    username: 
+    password: 
+    platform: linux
+    hostname: 172.20.20.22
+host31:
+    username: 
+    password: 
+    platform: linux
+    hostname: 172.20.20.31
+host32:
+    username: 
+    password: 
+    platform: linux
+    hostname: 172.20.20.32
+ssh:
+    username: 
+    password: 
+    platform: linux
+    hostname: 172.20.20.100
+vyos01:
+    username: admin
+    password: admin
+    platform: vyosnetworks_vyos
+    hostname: 172.20.20.41
+vyos02:
+    username: admin
+    password: admin
+    platform: vyosnetworks_vyos
+    hostname: 172.20.20.42
+vyos03:
+    username: admin
+    password: admin
+    platform: vyosnetworks_vyos
+    hostname: 172.20.20.43
